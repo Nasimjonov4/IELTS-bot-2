@@ -23,7 +23,7 @@ MAIN_MENU = ReplyKeyboardMarkup(
         [KeyboardButton("🌐 Others")],
     ],
     resize_keyboard=True,
-    persistent=True
+    is_persistent=True
 )
 
 def ask_ai(prompt: str) -> str:
