@@ -6,8 +6,8 @@ from telegram.ext import (
     filters, ContextTypes, ConversationHandler
 )
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+TELEGRAM_TOKEN = os.environ.get("8088033129:AAG4QC_n7pukQSwVvW31F9tJQzQVDYKGoYs")
+GEMINI_API_KEY = os.environ.get("AIzaSyBBQgmhREcAo-8YtSnllbKgavIJ4JxY_RQ")
 
 genai.configure(api_key=GEMINI_API_KEY)
 model = genai.GenerativeModel("gemini-1.5-flash")
